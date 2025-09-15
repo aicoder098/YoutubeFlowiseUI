@@ -48,7 +48,7 @@ export const Badge = (props: Props) => {
             'background-color': props.badgeBackgroundColor ?? '#ffffff',
           }}
         >
-          {props.footer?.text ?? 'VitalDSS can make mistakes. Licensed healthcare professionals should verify all info.'}
+          {props.footer?.text ?? 'VitalDSS can make mistakes. Verify all info. Do not enter PHI.'}
           <a
             ref={liteBadge}
             href={props.footer?.companyLink ?? 'https://vitaldss.com'}
